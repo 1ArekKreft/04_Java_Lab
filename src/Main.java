@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         /* zad.1
-        a) Stwożyć interfejs Budynek,
+        a) Stwożyć interfejs Budynek,,
         b) interfejs powinien mieć metody:
             - double powierzchnia(double pow);
             - String adresBudynku(String adres);
