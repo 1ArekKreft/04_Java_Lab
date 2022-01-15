@@ -12,7 +12,6 @@ public class Main {
         c) stworzyć enum KolorEnum z przykładowymi kolorami,
         d) stworzyć jedną metodę z 2 parametrami wymyśloną przez siebie,
         */
-
         /* zad.2
         a) napisać klasę Dom implementującą interfejs Budynek,
         b) zaimplementować wszystkie metody,
@@ -27,5 +26,8 @@ public class Main {
         b) wykorzystać wszystkie metody do implementacji pól
         c) wyświetlić w konsoli metodę toString (na obu objektach) opisującą zachowanie klasy Dom
         */
+
+        Dom dom1 = new Dom(160.5,"Rakoczego 14",8,6,KolorEnum.niebieski,"Marian","Wołodyjowski");
+        dom1.toString();
     }
 }
