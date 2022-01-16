@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,6 +35,8 @@ public class Main {
         f) wypisać pętlą metody toString() wszystkich elementów listy
         */
 
+        int [] oceny = {5,2,4,2};
+        Student Marek = new Student(oceny, "04/04/2022","01/01/2022","Marek");
         /* zad5 - Dla chętnych
         Stworzyć klasę która będzie implementować 2 lub 3 interfejsy następnie będzie
         dziedziczona przez inną klasę
