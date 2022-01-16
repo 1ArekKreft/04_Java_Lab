@@ -37,6 +37,7 @@ public class Main {
 
         int [] oceny = {5,2,4,2};
         Student Marek = new Student(oceny, "04/04/2022","01/01/2022","Marek");
+        Student Marian = new Student(oceny, "04/04/2022","01/01/2022","Marian");
         /* zad5 - Dla chętnych
         Stworzyć klasę która będzie implementować 2 lub 3 interfejsy następnie będzie
         dziedziczona przez inną klasę
